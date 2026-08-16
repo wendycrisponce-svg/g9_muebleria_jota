@@ -1,0 +1,50 @@
+body {
+    font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background-color: #faf8f5;
+}
+
+h1 {
+    color: #4a3728;
+}
+
+.tarjeta-mueble {
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border: 1px solid #555;
+    padding: 20px;
+    margin: 15px;
+}
+
+.tarjeta-mueble figure {
+    margin: 0 0 1rem;
+}
+
+.tarjeta-mueble img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+.tarjeta-mueble h3 {
+    margin: 0 0 0.5rem;
+    color: #4a3728;
+}
+
+.tarjeta-mueble p {
+    margin: 0 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .tarjeta-mueble {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
